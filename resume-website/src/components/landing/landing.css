@@ -1,0 +1,45 @@
+html{
+    margin: 0;
+}
+
+/* 
+cfdbd5 grey
+e8eddf offwhite
+f5cb5c yellow
+242423 black
+333533  light black
+
+*/
+
+
+.landing {
+    height: 100vh;
+    background:#333533;
+    background: -webkit-linear-gradient(45deg, #333533,#333533,#f5cb5c,#f5cb5c,#333533,#333533);
+    background: linear-gradient(45deg, #333533,#333533,#f5cb5c,#333533,#333533);
+
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+
+    0% {
+        background-position: 0% 100%;
+    }
+
+    100% {
+        background-position: 100% 0%;
+    }
+}
+
+.landingSub {
+    font-family: 'Playfair Display', serif;
+    padding-top: 40vh;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    color: #cfdbd5;
+    text-shadow: 4px 4px #333533;
+    
+}

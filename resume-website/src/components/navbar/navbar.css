@@ -1,0 +1,21 @@
+/* cfdbd5 grey
+e8eddf offwhite
+f5cb5c yellow
+242423 black
+333533  light black */
+
+.navbar-brand{
+    color:#e8eddf !important;
+}
+
+.navbar-brand:hover{
+    color:#f5cb5c !important;
+}
+
+.nav-link{
+    color:#e8eddf !important;
+}
+.nav-link:hover{
+    color:#f5cb5c !important;
+}
+

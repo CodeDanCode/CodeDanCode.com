@@ -1,0 +1,65 @@
+
+/* 
+cfdbd5 grey
+e8eddf offwhite
+f5cb5c yellow
+242423 black
+333533  light black 
+*/
+
+.contact {
+    height: 100vh;
+    background-color: #e8eddf;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    padding-top: 15vh;
+    margin-top: -40px
+}
+
+.contactBlock{
+    padding:30px;
+    margin-left:25vw;
+    margin-right:25vw;
+}
+
+.btn{
+    /* margin-left: 38vw; */
+    border-width: 2px;
+    color: black;
+}
+
+.form-control{
+    background-color: #f5cb5c;
+    border-color: black;
+}
+
+.form-control::placeholder{
+    color:black;
+}
+
+.footerBlock{
+    /* margin-left:40vw; */
+    /* margin-right: 35vw; */
+    text-align: center;
+}
+
+.footerAnchor{
+    Margin:15px;
+    font-size:xx-large;
+    color: #333533;
+}
+
+.footerAnchor:hover{
+    color:#f5cb5c;
+    text-shadow: 3px 3px 3px black;   
+}
+
+@media screen and (max-width:1000px){
+    .contactBlock{
+        margin: auto;
+    }
+}

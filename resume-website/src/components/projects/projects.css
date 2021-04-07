@@ -1,0 +1,93 @@
+
+/* 
+cfdbd5 grey
+e8eddf offwhite
+f5cb5c yellow
+242423 black
+333533  light black 
+*/
+
+.projects {
+    height: 160vh;
+    background:#333533;
+    overflow: hidden;
+}
+
+.card{
+    padding-top:5px;
+    margin-top:15px;
+    background:white;
+    border-radius: 15px;
+}
+
+#projectHeader {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color:#cfdbd5;
+    font-weight: bold;
+    padding-top: 20vh;
+    margin-top: -40px;
+    text-shadow: 3px 3px black;
+}
+
+.modal{
+    padding-top: 20vh;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+    border-radius:10px;    
+}
+
+.card-img-top:hover{
+    border: 3px solid #cfdbd5;
+}
+
+.card-body{
+    padding-bottom:5px;
+}
+
+.card-title{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.card-text{
+    font-family: 'Playfair Display', serif;
+}
+.card-footer{
+    border-radius: 15px !important;
+    background:white;
+    border-color: white;
+    padding-top:0;
+}
+
+.cardAnchor{
+    font-size:x-large;
+    color: #333533;
+}
+
+.cardAnchor:hover{
+    color:#f5cb5c;
+    text-shadow: 3px 3px 3px black;   
+}
+
+.mobile-class{
+    margin-bottom: 15px;  
+}
+
+@media screen and (max-width: 1000px){
+    .projects{
+        height: auto;
+    }
+    #projectHeader{
+        padding-top: 100px;
+    }
+
+    .card-img-top{
+        height: auto;
+    }
+
+}

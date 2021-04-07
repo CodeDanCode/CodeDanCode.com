@@ -1,0 +1,15 @@
+FROM node:alpine3.11
+
+RUN mkdir -p /app
+
+WORKDIR /app
+
+COPY resume-website-server/package*.json ./
+
+RUN npm install
+
+COPY resume-website-server/ .
+
+EXPOSE 3001
+
+CMD ["node","index.js"]
